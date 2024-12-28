@@ -36,7 +36,22 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+# Fork the repository
+# Clone your fork
+git clone https://github.com/your-username/EAMCET-College-Predictor.git
+cd EAMCET-College-Predictor
 
+# Create a new branch
+git checkout -b feature-new-feature
+
+# Make your changes and commit
+git add .
+git commit -m "Add new feature"
+
+# Push your changes
+git push origin feature-new-feature
+
+# Submit a Pull Request on GitHub
 
 
 
