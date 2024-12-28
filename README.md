@@ -1,4 +1,4 @@
-# 🚀 **EAMCET College Predictor**
+# **EAMCET College Predictor**
 
 ## 📚 **Overview**  
 **EAMCET College Predictor** is a **Streamlit web application** that helps students predict eligible colleges based on their **EAMCET rank, caste, gender, and preferred branch**. This tool simplifies the college selection process by providing accurate and filtered results from the dataset.
