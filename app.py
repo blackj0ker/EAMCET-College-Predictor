@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+# Set the page configuration
+st.set_page_config(page_title='EAMCET College Predictor')
+
 # Load the dataset
 @st.cache_data
 def load_data():
@@ -9,10 +12,7 @@ def load_data():
 
 df = load_data()
 
-# Streamlit App
 st.title('EAMCET College Predictor')
-# Set the page configuration
-st.set_page_config(page_title='EAMCET College Predictor')
 
 # User Inputs
 name = st.text_input('Name *')
@@ -21,7 +21,6 @@ gender = st.selectbox('Gender *', ['Male', 'Female'])
 caste = st.selectbox('Caste *', ['OC', 'BC_A', 'BC_B', 'BC_C', 'BC_D', 'BC_E', 'SC', 'ST', 'EWS'])
 branch = st.selectbox('Branch *', df['Branch Name'].unique())
 
-# Filter Data Button
 if st.button('Show Data'):
     filtered_df = df[df['Branch Name'] == branch]
     
