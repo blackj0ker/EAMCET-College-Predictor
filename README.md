@@ -55,7 +55,7 @@ git commit -m "Add new feature"
 ```bash
 git push origin feature-new-feature
 ```
-Submit a Pull Request on GitHub
+### Submit a Pull Request on GitHub
 
 
 
