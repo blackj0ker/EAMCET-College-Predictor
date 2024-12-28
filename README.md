@@ -1,5 +1,3 @@
-# EAMCET College Predictor
- 
 # 🚀 **EAMCET College Predictor**
 
 ## 📚 **Overview**  
